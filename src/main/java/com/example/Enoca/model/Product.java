@@ -5,7 +5,7 @@ import jakarta.persistence.Table;
 import lombok.Data;
 
 @Entity
-@Table
+@Table(name = "products")
 @Data
 public class Product extends BaseEntity{
     private String name;
